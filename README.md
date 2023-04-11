@@ -181,5 +181,5 @@ Below are the steps for ICMP (nternet Control Message Protocol) traffic observat
 </p>
 <br />
 
-<h1>Thank Your for looking! </a>☺</h1>
+<h1>Thanks for viewing! </a>☺</h1>
 
