@@ -158,7 +158,30 @@ Below is SSH (Secure Shell) traffic observation using Wireshark
 
 Below are the steps for ICMP (nternet Control Message Protocol) traffic observation from a perpetual ping and ICMP traffic stop after the inbound firewall rule is set 
 <br />
-1. Set the perpetual ping comand to ping VM2 and observe the ICMP t
+1. Set the perpetual ping comand to ping VM2 and observe the ICMP traffic
+<p>
+<img src="https://imgur.com/cgRnPPG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+<br />
+
+2. Change the Inbound firewall rule to deny ICMP traffic
+
+<p>
+<img src="https://imgur.com/gKmvkuS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+<br />
+
+
+3. Observe the ping request times out after the firewall rule was put in place
+(*note - The ping request timed out due to the ICMP traffic being denied as the firewall rule blocked the traffic)
+<p>
+<img src="https://imgur.com/dMWGgWi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<h1>Thank Your for looking! For more content like this, visit <a href="https://exemplarysecurity.com">my website</a>☺</h1>
 
 <h2>High-Level Steps</h2>
 
