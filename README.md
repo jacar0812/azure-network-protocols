@@ -8,11 +8,11 @@ In this tutorial, I observe various network traffic protocols to and from Azure 
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Various Command-Line Tools
-- Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
-- Wireshark (Protocol Analyzer)
+- Microsoft Azure (Virtual Machines/Compute) Virtual machines are used to install software that is used to analyze the traffic being sent
+- Remote Desktop (RDP) is used to connect to the virtual machines and it is one type of traffic observed in Wireshark
+- Various Command-Line Tools 
+- Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP) are observed in Wireshark as both VMs communicate with each other under various commands
+- Wireshark (Protocol Analyzer) is network traffic analyzer used to observe the different types of traffic being sent between VMs
 
 <h2>Operating Systems Used </h2>
 
