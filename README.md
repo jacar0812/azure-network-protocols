@@ -3,7 +3,7 @@
 </p>
 
 <h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
-In this tutorial, I observe various network traffic protocols to and from Azure Virtual Machines with Wireshark.  This is also a great excercise to learn about and experiment with Network Security Groups. <br />
+In this tutorial, I observe various network traffic protocols to and from Azure Virtual Machines with Wireshark.  This is also a great exercise to learn about and experiment with Network Security Groups. <br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -12,7 +12,7 @@ In this tutorial, I observe various network traffic protocols to and from Azure 
 - Remote Desktop (RDP) is used to connect to the virtual machines and it is one type of traffic observed in Wireshark
 - Various Command-Line Tools 
 - Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP) are observed in Wireshark as both VMs communicate with each other under various commands
-- Wireshark (Protocol Analyzer) is network traffic analyzer used to observe the different types of traffic being sent between VMs
+- Wireshark (Protocol Analyzer) is a network traffic analyzer used to observe the different types of traffic being sent between VMs
 
 <h2>Operating Systems Used </h2>
 
@@ -38,7 +38,7 @@ In this tutorial, I observe various network traffic protocols to and from Azure 
 <br />
 <br />
 
-1.c Then click create and wait a few moments....
+1.c Then click Create and wait a few moments....
 
 <p>
 <img src="https://imgur.com/CwSfMjG.png alt"Resource Group"/?
@@ -62,7 +62,7 @@ Step 2.a - Create two Virtual Machines. One Windows and one Linux (as displayed 
 <br />
 <br />  
   
-2b. Choose the resource group, name, region and operating system for the VM. Then click review and create.
+2b. Choose the resource group, name, region, and operating system for the VM. Then click review and create.
 <p>
 <img src="https://imgur.com/CWIg88Z.png alt"Rescource Group"/?
 </p>
@@ -120,7 +120,7 @@ Now that you have logged in you can continue on to the traffic observation steps
 
 
 <h2>Actions and Observations</h2>
-These observations are made by inputting commands that corresond to the type of traffic one wishes to observe and then filtering Wireshark by the corresponding traffic type.
+These observations are made by inputting commands that correspond to the type of traffic one wishes to observe and then filtering Wireshark by the corresponding traffic type.
 <br />
 <br />
 
@@ -156,9 +156,9 @@ Below is SSH (Secure Shell) traffic observation using Wireshark
 <br />
 
 
-Below are the steps for ICMP (nternet Control Message Protocol) traffic observation from a perpetual ping and ICMP traffic stop after the inbound firewall rule is set 
+Below are the steps for ICMP (Internet Control Message Protocol) traffic observation from a perpetual ping and ICMP traffic stop after the inbound firewall rule is set 
 <br />
-1. Set the perpetual ping comand to ping VM2 and observe the ICMP traffic
+1. Set the perpetual ping command to ping VM2 and observe the ICMP traffic
 <p>
 <img src="https://imgur.com/cgRnPPG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
